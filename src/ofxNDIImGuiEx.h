@@ -35,7 +35,7 @@
 
 #include "ofMain.h" // todo: removeme ?!
 #include "imgui.h"
-#include "ofxNDIsender.h"
+#include "ofxNDIsender.h" // Ensure that you have leadedge/ofxNDI if this complains !
 #include "ofxNDIreceiver.h"
 
 #ifndef IMGUI_HELPMARKER
