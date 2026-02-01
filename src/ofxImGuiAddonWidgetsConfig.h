@@ -17,7 +17,8 @@
 
 // ofxNDI
 #ifndef ofxImGuiAddonWidgets_NDI
-#	if __has_include("ofxNDI.h") // C++17 only !
+//#	if __has_include("ofxNDI.h") // C++17 only !
+#	if __has_include("ofxNDIdynloader.h") // C++17 only ! (nariakiiwatani/ofxNDI compatible)
 #		define ofxImGuiAddonWidgets_NDI
 #	endif
 #endif
